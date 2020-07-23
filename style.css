@@ -9,8 +9,10 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  display: flex;
 }
 
+/* NAV BAR */
 #logo-header{
   margin-top: 15px;
   margin-left: 15px;
@@ -31,6 +33,10 @@ header#main-header{
 nav ul {
   color: #14171A;
   margin-left: 15px;
+}
+
+nav ul #selected {
+  color: #1DA1F2;
 }
 
 nav ul li {
@@ -61,4 +67,24 @@ header button#tweet-left-button:hover {
   background-color: #1B95E0;
   transition: 0.5s;
   cursor: pointer;
+}
+
+/* MIDDLE SECTION */
+
+div#middle-section #navigation-bar{
+  border: 1px solid rgb(230,236,240);
+  width: 600px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+}
+
+div#navigation-bar > div{
+  margin-left: 35px;
+}
+
+div#navigation-bar > div > strong{
+  font-size: 19px;
+  font-weight: 800;
 }
