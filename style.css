@@ -196,3 +196,27 @@ div#followers {
 div#numberfollows, div#numberfollowers{
   font-weight: bold;
 }
+
+div#sections-profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+div#sections-profile > div{
+  padding: 30px;
+  font-weight: 700;
+  color: rgb(101, 119, 134);
+}
+
+div#sections-profile > div:first-child{
+  border-bottom: #1DA1F2 2px solid;
+  color: #1DA1F2;
+}
+
+div#sections-profile > div:hover{
+  color: #1DA1F2;
+  background-color: #E8F5FE;
+  transition: 0.3s;
+}
