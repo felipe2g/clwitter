@@ -27,7 +27,7 @@ header#main-header{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 nav ul {
@@ -42,7 +42,7 @@ nav ul #selected {
 nav ul li {
   font-size: 19px;
   font-weight: 700;
-  padding-top: 35px;
+  padding-top: 27px;
   display: flex;
 }
 
@@ -135,14 +135,64 @@ div#edit-profile-button button {
 div#profile-info{
   display: flex;
   flex-direction: column;
+  justify-items: center;
 }
 
-#location-acc-creation{
-  height: 50px;
+div#profile-info > div#bio{
+  padding-top: 10px;
+}
+
+div#profile-info > div#user{
+  color: rgb(101, 119, 134);
+}
+/* */
+div#profile-info > div#username{
+  font-size: 19px;
+  font-weight: 800;
+}
+
+div#location-acc-creation{
   display: flex;
-  align-items: center;
+  font-size: 15px;
+  color: rgb(101, 119, 134);
 }
 
 #location-acc-creation > div > img {
   width: 20px;
+  margin-right: 5px;
+}
+#location-acc-creation #acc-creation{
+  margin-left: 10px;
+}
+#location-acc-creation #location , #location-acc-creation #acc-creation{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#follow-and-followers{
+  display: flex;
+  padding-top: 10px;
+}
+
+#follow-text{
+  margin-right: 3px;
+}
+
+#followers-text, #follow-text{
+  margin-left: 3px;
+  color: rgb(101, 119, 134);
+}
+
+div#follow, div#followers {
+  display: flex;
+}
+
+div#followers {
+  margin-left: 20px;
+}
+
+div#numberfollows, div#numberfollowers{
+  font-weight: bold;
 }
